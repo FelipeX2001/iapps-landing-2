@@ -67,7 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="wa.link/nw66bo">
+						<Link target="_blank" href="https://api.whatsapp.com/send?phone=573042501726&text=Quiero%20evolucionar%20mi%20empresa%20con%20Inteligencia%20Artificial%20%F0%9F%A6%BE">
 							<MessageSquare
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting

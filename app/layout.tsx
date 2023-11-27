@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "iapps.ai",
+    default: "IApps",
     template: "%s | iapps.ai",
   },
   description: "Evolucionando empresas con Inteligencia Artificial",
   openGraph: {
-    title: "iapps.ai",
+    title: "IApps",
     description:
       "Llevamos empresas hacia el futuro con automatización e Inteligencia Artificial",
     url: "https://iapps.ai",
-    siteName: "iapps.ai",
+    siteName: "IApps",
     images: [
       {
         url: "https://urbano-beta.mawie.co/wp-content/uploads/2023/11/og.png",
