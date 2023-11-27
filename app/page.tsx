@@ -38,7 +38,7 @@ export default function Home() {
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block font-display animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 mx-16 text-center animate-fade-in">
+      <div className="my-16 mx-12 text-center animate-fade-in">
         <h2 className="text-lg text-zinc-400">
           Creando SOLUCIONES con Inteligencia Artificial para 
           EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
