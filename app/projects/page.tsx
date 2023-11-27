@@ -85,7 +85,7 @@ export default async function ProjectsPage() {
                   {featured.description}
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
-                  <p className="text-zinc-200 hover:text-zinc-50 lg:block">
+                  <p className="mt-4 text-zinc-200 hover:text-zinc-50 lg:block">
                     Leer más <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
