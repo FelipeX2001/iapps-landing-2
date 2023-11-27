@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center font-poppins w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <img
         src="/logo.png" // Asume que tu logo está en la carpeta public/images
         alt="Logo"
@@ -40,14 +40,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block font-poppins animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 mx-16 text-center animate-fade-in">
         <h2 className="text-lg text-zinc-400 ">
-          Creando{" "}
-          <Link
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=573042501726&text=Quiero%20evolucionar%20mi%20empresa%20con%20Inteligencia%20Artificial%20%F0%9F%A6%BE"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            SOLUCIONES
-          </Link> con Inteligencia Artificial para EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
+          Creando SOLUCIONES con Inteligencia Artificial para EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
         </h2>
       </div>
     </div>
