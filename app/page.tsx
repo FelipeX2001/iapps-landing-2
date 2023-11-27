@@ -33,7 +33,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-12xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-11xl md:text-12xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 text-10xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-10xl md:text-10xl whitespace-nowrap bg-clip-text ">
         IApps
       </h1>
 
