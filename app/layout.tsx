@@ -6,24 +6,24 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "iapps.ai",
+    template: "%s | iapps.ai",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Evolucionando empresas con Inteligencia Artificial",
   openGraph: {
-    title: "chronark.com",
+    title: "iapps.ai",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Llevamos empresas hacia el futuro con automatización e Inteligencia Artificial",
+    url: "https://iapps.ai",
+    siteName: "iapps.ai",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://urbano-beta.mawie.co/wp-content/uploads/2023/11/og.png",
         width: 1920,
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "es-ES",
     type: "website",
   },
   robots: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "IApps",
     card: "summary_large_image",
   },
   icons: {

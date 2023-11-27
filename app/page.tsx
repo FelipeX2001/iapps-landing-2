@@ -28,7 +28,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 text-5xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-7xl md:text-12xl whitespace-nowrap bg-clip-text ">
         IApps
       </h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
           Creando{" "}
           <Link
             target="_blank"
-            href="https://unkey.dev"
+            href="https://api.whatsapp.com/send?phone=573042501726&text=Quiero%20evolucionar%20mi%20empresa%20con%20Inteligencia%20Artificial%20%F0%9F%A6%BE"
             className="underline duration-500 hover:text-zinc-300"
           >
             SOLUCIONES
