@@ -29,6 +29,7 @@ module.exports = {
 				},
 			},
 			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
 			},

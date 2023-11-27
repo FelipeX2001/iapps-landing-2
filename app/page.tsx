@@ -33,13 +33,13 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 text-12xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-11xl md:text-12xl whitespace-nowrap bg-clip-text ">
         IApps
       </h1>
 
-      <div className="hidden w-screen h-px animate-glow md:block font-display animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className="hidden w-screen h-px animate-glow md:block font-poppins animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 mx-16 text-center animate-fade-in">
-        <h2 className="text-lg text-zinc-400 font-poppins ">
+        <h2 className="text-lg text-zinc-400">
           Creando SOLUCIONES con Inteligencia Artificial para EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
         </h2>
       </div>
