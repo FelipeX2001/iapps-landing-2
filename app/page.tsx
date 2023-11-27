@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center font-poppins w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <img
         src="/logo.png" // Asume que tu logo está en la carpeta public/images
         alt="Logo"
@@ -33,12 +33,12 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-9xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-11xl md:text-12xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 text-10xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-10xl md:text-12xl whitespace-nowrap bg-clip-text ">
         IApps
       </h1>
 
-      <div className="hidden w-screen h-px animate-glow md:block font-display animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
+      <div className="hidden w-screen h-px animate-glow md:block font-poppins animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className="my-16 mx-16 text-center animate-fade-in">
         <h2 className="text-lg text-zinc-400 ">
           Creando{" "}
           <Link
@@ -47,7 +47,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             SOLUCIONES
-          </Link> con Inteligencia Artificial que EVOLUCIONEN tu empresa.
+          </Link> con Inteligencia Artificial para EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
         </h2>
       </div>
     </div>
