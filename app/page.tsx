@@ -3,13 +3,18 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+  { name: "Proyectos", href: "/projects" },
+  { name: "Contacto", href: "/contact" },
 ];
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+      <img
+        src="/logo.png" // Asume que tu logo está en la carpeta public/images
+        alt="Logo"
+        className="absolute left-0 top-0 m-4 w-12 h-12" // Margen de 4 y dimensiones de 12x12, posición izquierda superior
+      />
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -28,7 +33,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-9xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-12xl md:text-12xl whitespace-nowrap bg-clip-text ">
+      <h1 className="z-10 text-9xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-11xl md:text-12xl whitespace-nowrap bg-clip-text ">
         IApps
       </h1>
 
