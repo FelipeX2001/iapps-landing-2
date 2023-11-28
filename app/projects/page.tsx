@@ -45,7 +45,7 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-display tracking-tight text-zinc-100 sm:text-4xl">
             PROYECTOS
           </h2>
-          <p className="mt-4 text-zinc-400 font-poppins font-regular">
+          <p className="mt-4 text-zinc-400 font-poppins font-semibold">
             Construyendo el FUTURO con tu Inteligencia y la Artificial
           </p>
         </div>
