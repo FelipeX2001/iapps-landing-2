@@ -105,7 +105,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 						<h1 className="text-4xl tracking-tight text-white sm:text-6xl font-display">
 							{project.title}
 						</h1>
-						<p className="mt-6 text-lg leading-8 text-zinc-300 font-poppins font-semibold">
+						<p className="mt-6 text-lg leading-8 text-zinc-300 font-display font-semibold">
 							{project.description}
 						</p>
 					</div>
