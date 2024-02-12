@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             PROYECTOS
           </h2>
           <p className="mt-4 text-zinc-400 font-poppins font-semibold">
-            Construyendo el FUTURO con tu Inteligencia y la Artificial
+            Boosting Companies to the FUTURE with AI-Powered Solutions
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
@@ -64,7 +64,7 @@ export default async function ProjectsPage() {
                         }).format(new Date(featured.date))}
                       </time>
                     ) : (
-                      <span>PRONTO</span>
+                      <span>SOON</span>
                     )}
                   </div>
                   <span className="flex items-center gap-1 text-xs text-zinc-500">

@@ -3,8 +3,8 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Proyectos", href: "/projects" },
-  { name: "Contacto", href: "/contact" },
+  { name: "Projects", href: "/projects" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Home() {
@@ -31,17 +31,16 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
+        quantity={50}
       />
-      <h1 className="my-3 z-10 text-9xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-8xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <h1 className="my-3 z-10 text-9xl text-transparent duration-1000 bg-white cursor-default animate-title font-display sm:text-8xl md:text-9xl whitespace-nowrap bg-clip-text">
         IApps
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block font-display animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 mx-10 text-center animate-fade-in">
-        <h2 className="text-lg text-zinc-400">
-          Creando SOLUCIONES con Inteligencia Artificial para 
-          EVOLUCIONAR tu empresa y prepararla hacia el FUTURO.
+        <h2 className="text-xl text-zinc-400">
+          Boosting Companies to the FUTURE with AI-Powered Solutions
         </h2>
       </div>
     </div>

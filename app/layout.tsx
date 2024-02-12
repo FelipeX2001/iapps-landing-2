@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "IApps",
     template: "%s | iapps.ai",
   },
-  description: "Evolucionando empresas con Inteligencia Artificial",
+  description: "Boosting Companies to the FUTURE with AI-Powered Solutions",
   openGraph: {
     title: "IApps",
     description:
-      "Llevamos empresas hacia el futuro con automatización e Inteligencia Artificial",
+      "Boosting Companies to the FUTURE with AI-Powered Solutions",
     url: "https://iapps.ai",
     siteName: "IApps",
     images: [

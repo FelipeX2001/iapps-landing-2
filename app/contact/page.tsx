@@ -7,7 +7,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <MessageSquare size={20} />,
-		href: "https://api.whatsapp.com/send?phone=573042501726&text=Quiero%20evolucionar%20mi%20empresa%20con%20Inteligencia%20Artificial%20%F0%9F%A6%BE",
+		href: "https://api.whatsapp.com/send?phone=573042536416&text=Quiero%20evolucionar%20mi%20empresa%20con%20Inteligencia%20Artificial%20%F0%9F%A6%BE",
 		label: "WhatsApp",
 		handle: "WhatsApp",
 	},
