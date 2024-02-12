@@ -43,9 +43,9 @@ export default async function ProjectsPage() {
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-3xl font-display tracking-tight text-zinc-100 sm:text-4xl">
-            PROYECTOS
+            PROJECTS
           </h2>
-          <p className="mt-4 text-zinc-400 font-poppins font-semibold">
+          <p className="mt-4 text-zinc-400 font-display font-semibold">
             Boosting Companies to the FUTURE with AI-Powered Solutions
           </p>
         </div>
@@ -81,12 +81,12 @@ export default async function ProjectsPage() {
                 >
                   {featured.title}
                 </h2>
-                <p className="mt-4 leading-8 duration-150 text-zinc-400 font-poppins font-regular group-hover:text-zinc-300">
+                <p className="mt-4 leading-8 duration-150 text-zinc-400 font-display font-regular group-hover:text-zinc-300">
                   {featured.description}
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
                   <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                    Leer más <span aria-hidden="true">&rarr;</span>
+                    Read more <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
               </article>
