@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
@@ -11,9 +13,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen font-display h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <img
-        src="/logo.png" // Asume que tu logo está en la carpeta public/images
+        src="/logo.png"
         alt="Logo"
-        className="absolute left-0 top-0 m-5 w-12 h-12" // Margen de 4 y dimensiones de 12x12, posición izquierda superior
+        className="absolute left-0 top-0 m-5 w-12 h-12"
       />
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
@@ -45,5 +47,4 @@ export default function Home() {
       </div>
     </div>
   );
-
 }
